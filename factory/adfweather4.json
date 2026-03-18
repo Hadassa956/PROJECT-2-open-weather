@@ -1,0 +1,9 @@
+{
+	"name": "adfweather4",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10e9e45c-fcba-4e55-8380-28b5aab8d937",
+		"tenantId": "7472979a-0774-4082-8e03-6f1324f22f5b"
+	}
+}

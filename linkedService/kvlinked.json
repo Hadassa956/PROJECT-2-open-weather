@@ -1,0 +1,11 @@
+{
+	"name": "kvlinked",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kvweather.vault.azure.net/"
+		}
+	}
+}

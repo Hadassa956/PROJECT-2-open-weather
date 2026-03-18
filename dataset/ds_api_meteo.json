@@ -1,0 +1,19 @@
+{
+	"name": "ds_api_meteo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_api_openmeteo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m&models=gem_seamless"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
